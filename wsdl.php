@@ -6,7 +6,6 @@
 	*
    	*/
 	header('content-type:text/html;charset=utf-8');
-	include 'class.php';
 	$param  = array('Username'=>'xxx','Password'=>'xxx','authentication' => SOAP_AUTHENTICATION_BASIC);
 	$s = new SoapClient('http://xxx/xxx?wsdl',$param);
 ?>
